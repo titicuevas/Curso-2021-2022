@@ -1,0 +1,44 @@
+--Decirle a adri que ponga el enchufe
+
+--Crear fichero
+nano index.php
+
+--Iniciar el composer por primera vez
+
+composer require mpdf/mpdf
+
+
+--Utilizar paquetes de php que tiene Ricardo, descargar de github
+sudo apt install $(<lista_paquetes.txt)
+
+--NO SE RECOMIENDA HACER UN COMPOSER UPDATE(efecto cascada y cargarte los programas, ya que usamos la version estable)
+
+--Iniciar server
+php -S 0.0.0.0:8000
+Luego ponemos localhost:8000
+
+
+--Decirle a adri que quite el enchufe
+
+
+-- Miramos Tailwind(un framework de css)
+
+-- Crear proyecto en laravel
+
+composer create-project laravel/laravel nombreproyecto
+
+git init
+git add .
+git commit -m "Primeros pasos"
+
+--Abrir la carpeta Laravel
+php artisan serve
+
+--Ejecutar las extensiones
+for p in $(<lista_extensiones.txt); do code --install-extension $p; done
+
+--Ejecutar un paquete del composer desde otro lado
+
+composer install
+npm install
+npm run dev
